@@ -1,3 +1,5 @@
+# Create a program that reads a positive integer N as input and prints on the console a rhombus with size n:
+
 def generate_pyramid(size: int, inverted: bool = False) -> list:
     steps = [i for i in range(1, size + 1)]
     if inverted:
