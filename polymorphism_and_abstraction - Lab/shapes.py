@@ -1,3 +1,7 @@
+# Create an abstract class Shape with abstract methods calculate_area and calculate_perimeter. Create classes Circle (receives radius upon initialization) 
+# and Rectangle (receives height and width upon initialization) that implement those methods (returning the result). The fields of Circle and Rectangle should be private.
+
+
 from abc import ABC, abstractmethod
 from math import pi
 
@@ -15,26 +19,26 @@ class Shape(ABC):
 class Circle(Shape):
 
     def __init__(self, radius):
-        self.radius = radius
+        self.__radius = radius
 
     def calculate_area(self):
-        return self.radius ** 2 * pi
+        return self.__radius ** 2 * pi
 
     def calculate_perimeter(self):
-        return self.radius * 2 * pi
+        return self.__radius * 2 * pi
 
 
 class Rectangle(Shape):
 
     def __init__(self, height, width):
-        self.height = height
-        self.width = width
+        self.__height = height
+        self.__width = width
 
     def calculate_area(self):
-        return self.height * self.width
+        return self.__height * self.__width
 
     def calculate_perimeter(self):
-        return (2 * self.height) + (2 * self.width)
+        return (2 * self.__height) + (2 * self.__width)
 
 
 circle = Circle(5)
@@ -44,4 +48,6 @@ print(circle.calculate_perimeter())
 rectangle = Rectangle(10, 20)
 print(rectangle.calculate_area())
 print(rectangle.calculate_perimeter())
+
+
 
