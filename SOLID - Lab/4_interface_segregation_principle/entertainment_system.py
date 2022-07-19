@@ -1,3 +1,8 @@
+# We have been hired to create a game where the player sets up entertainment systems. Each piece of the system (television, game console, etc.) uses a specific cable 
+# to connect to another device. The TV uses an HDMI cable to connect to a game console. Both the game console and TV connect to a router via an ethernet cable to 
+# access the internet. And lastly, all the devices are connected to the wall via a power cable so they can turn on. Your job is to extend this behavior in the 
+# device classes.
+
 from abc import ABC, abstractmethod
 
 
