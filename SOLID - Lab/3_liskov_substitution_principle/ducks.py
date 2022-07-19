@@ -1,3 +1,5 @@
+# Refactor the provided code so it is in line with the Liskov Substitution Principle.
+
 from abc import abstractmethod, ABC
 
 
