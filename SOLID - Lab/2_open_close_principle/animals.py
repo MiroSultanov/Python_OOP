@@ -1,3 +1,5 @@
+# Refactor the provided code, so you do not need to make any changes in it when you want to add new species to the animals' list
+
 def add_other_animal_sounds(func):
     new_sounds = {
         'chicken': 'cluck'
@@ -32,7 +34,7 @@ def animal_sound(animals: list):
 animals = [Animal('cat'), Animal('dog')]
 animal_sound(animals)
 
-## добавете ново животно и рефакторирайте кода да работи без да се налага да се правят промени по него
-## при добавяне на нови животни
+## add a new animal and refactor the code to work without having to make changes to it
+## when adding new animals
 animals = [Animal('cat'), Animal('dog'), Animal('chicken')]
 animal_sound(animals)
