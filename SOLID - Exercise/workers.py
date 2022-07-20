@@ -1,3 +1,6 @@
+# You are provided with a code on which you have to apply the DIP (Dependency Inversion Principle) so that when adding new worker classes, the Manager 
+# class will work properly.
+
 from abc import ABC, abstractmethod
 
 
