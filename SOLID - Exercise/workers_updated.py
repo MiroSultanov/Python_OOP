@@ -1,3 +1,7 @@
+# You are provided with a code on which you have to apply the ISP (Interface Segregation Principle) by splitting the Worker class into two 
+# classes (Workable and Eatable), so the Robot class no longer needs to implement the eat method.
+
+
 from abc import ABCMeta, abstractmethod, ABC
 import time
 
