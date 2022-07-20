@@ -1,3 +1,7 @@
+# You are provided with code containing class Rectangle and class AreaCalculator. Refactor the code using the Open/Closed Principle so that the code is open for 
+# extension (adding more shapes) but closed for modification.
+
+
 from abc import ABC, abstractmethod
 
 
