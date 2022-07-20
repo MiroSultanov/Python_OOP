@@ -1,3 +1,7 @@
+# You are provided with a code containing a class Prisoner and a class Person. A prisoner is obviously a person, but since a prisoner is not free to move an
+# arbitrary distance, the Person class can be named FreePerson, then the idea that a Prisoner inherits FreePerson is wrong.Rewrite the code and apply
+# the LSP (Liskov Substitution Principle).
+
 import copy
 
 
