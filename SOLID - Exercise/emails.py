@@ -1,3 +1,6 @@
+# You are provided with code containing class IEmail and class Email. The code does not follow the principle of single 
+# responsibility (the Email class has 2 responsibilities). Create a new class - IContent, and a class that inherits it called MyContent to split the responsibilities.
+
 from abc import ABCMeta, abstractmethod, ABC
 
 
