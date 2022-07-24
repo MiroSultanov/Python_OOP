@@ -1,3 +1,5 @@
+# Create a generator function called possible_permutations() which should receive a list and return lists with all possible permutations between its elements.
+
 def possible_permutations(start_list: list):
 
     def gen_list(get_list=None, tmp_list=None, depth=0):
@@ -30,3 +32,10 @@ def possible_permutations(start_list: list):
 
 if __name__ == '__main__':
     [print(n) for n in possible_permutations([1, 2, 3])]
+    
+    
+    
+# Test Code
+# [print(n) for n in possible_permutations([1, 2, 3])]
+
+# [print(n) for n in possible_permutations([1])]
