@@ -1,3 +1,14 @@
+# Having the following code:
+#     def multiply(times):
+
+#     def decorator(function):
+
+#         # TODO: Implement
+
+#     return decorator
+
+# Complete the code, so it works as expected.
+
 import functools
 
 
