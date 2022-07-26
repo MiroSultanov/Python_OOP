@@ -1,3 +1,15 @@
+# Having the following code:
+    
+#     def vowel_filter(function):
+
+#     def wrapper():
+
+#         # TODO: Implement
+
+#     return wrapper
+
+# Complete the code, so it works as expected:
+
 def vowel_filter(function):
     vowels = set('aeiou' + 'aeiou'.upper())
 
