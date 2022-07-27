@@ -1,3 +1,5 @@
+# Create a decorator called tags. It should receive an HTML tag as a parameter, wrap the result of a function with the given tag and return the new result.
+
 def tags(tag):
     def decorator(func_ref):
         def wrapper(*args):
@@ -7,6 +9,8 @@ def tags(tag):
         return wrapper
 
     return decorator
+
+# Test Code
 
 @tags('p')
 def join_strings(*args):
