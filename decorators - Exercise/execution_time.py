@@ -1,3 +1,5 @@
+# Import the time module. Create a decorator called exec_time. It should calculate how much time a function needs to be executed. See the examples for more clarification.
+
 from time import time as tm
 
 
@@ -9,6 +11,7 @@ def exec_time(func):
         return t1 - t0
     return wrapper
 
+# Test Code
 
 @exec_time
 def loop(start, end):
