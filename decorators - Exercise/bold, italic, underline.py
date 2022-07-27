@@ -1,3 +1,5 @@
+# Create three decorators: make_bold, make_italic, make_underline, which will have to wrap a text returned from a function in <b></b>, <i></i> and <u></u> respectively.
+
 def make_bold(func_ref):
     def wrapper(*args):
         result = func_ref(*args)
@@ -21,6 +23,8 @@ def make_underline(func_ref):
 
     return wrapper
 
+
+# Test Code
 
 @make_bold
 @make_italic
