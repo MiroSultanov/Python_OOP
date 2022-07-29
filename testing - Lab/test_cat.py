@@ -1,3 +1,13 @@
+# Create a class CatTests
+# In judge you need to submit just the CatTests class, with the unitttest module imported.
+# Create the following tests:
+# •	Cat's size is increased after eating
+# •	Cat is fed after eating
+# •	Cat cannot eat if already fed, raises an error
+# •	Cat cannot fall asleep if not fed, raises an error
+# •	Cat is not sleepy after sleeping
+
+
 import unittest
 
 class Cat:
